@@ -5,7 +5,7 @@ include('../vars.php');
 global $mysqli;
 
 // sql to create table
-$sql = "UPDATE stock set quan=3 where id=3";
+$sql = "UPDATE stock set quan=9 where id=9";
 $result = $mysqli->query($sql);
 if ($result) {
 	print "Item restocked. ";
